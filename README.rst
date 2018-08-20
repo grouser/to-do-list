@@ -34,4 +34,4 @@ End Points
 * /api/login/ - Log in a user. The username and password must be sent by a POST request.
 * /api/logout/ - Log out the current user.
 * /api/tasks/ - Create a new task or return the tasks for the logged in user.
-* /api/tasks/<int:pk>/ - Retrieve, update or return the task with the ID specified.
+* /api/tasks/<int:pk>/ - Retrieve, update or delete the task with the ID specified.

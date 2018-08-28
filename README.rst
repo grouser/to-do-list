@@ -55,7 +55,7 @@ We will store the sessionid and csrf token for future requests.
 Creating a task
 ---------------
 
-    http POST http://127.0.0.1:8000/api/login/ title="Gym" description="I will try to do 20 push-ups" X-CSRFToken:xAbNhjBFulObPanKbtwkAyoxS7rxvgJe23ojC1mEenS9jANseaEb1JiL0oR61VDd --session=/tmp/session1.json -h
+    http POST http://127.0.0.1:8000/api/tasks/ title="Gym" description="I will try to do 20 push-ups" X-CSRFToken:xAbNhjBFulObPanKbtwkAyoxS7rxvgJe23ojC1mEenS9jANseaEb1JiL0oR61VDd --session=/tmp/session1.json -h
 
 Retrieving all the tasks for the logged in user
 ---------------
